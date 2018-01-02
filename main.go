@@ -85,8 +85,8 @@ func runJsonCases() {
 				mode := v.Input["mode"]
 				value := v.Input["value"]
 				uuid := v.Input["uuid"]
-        methods := v.Input["methoods"]
-        actions := v.Input["actions"]
+                                methods := v.Input["methoods"]
+                                actions := v.Input["actions"]
 
 				beginTime = time.Now()
 				resCon, err := edge.ConsultAvailableMethod(domain, mode, value, uuid, methods, actions)
