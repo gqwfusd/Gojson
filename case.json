@@ -1,0 +1,41 @@
+{"info":[
+        {
+			"apiname":"ConsultAvailableMethod",
+			"repeat":1,
+			"input":{	
+				"domain":"lx.org.19",
+				"mode":"mobile",
+				"value":"86-18610000008",
+				"uuid":"3F2504E0-1F89-11D39-A0C-030E82C333603",
+				"methods":[0,1,2],
+				"actions":[0]
+			}
+		},
+		{
+			"apiname":"PerformActions",
+			"repeat":1,
+			"input":{
+				"domain":"",
+				"mode":"mobile",
+				"value":"86-18610000008",
+				"uuid":"3F2504E0-1F89-11D39-A0C-030E82C333603",
+				"method":[0],
+				"action":[0],
+				"dataMethod":{"password":"password"},
+				"dataAction":{"createtoken":""}	
+			}
+        },
+		{
+			"apiname":"SendMsg",
+			"repeat":1000,
+			"input":{
+				"orgId":19,
+				"userId":1169,
+				"pOid":19,
+				"pId":318,
+				"chatType":2,
+				"msg":"gaoqiang:好好学习，天天写代码不出bug，(^o^~this is test send text message from 1091!"
+			}
+        }
+]
+}
